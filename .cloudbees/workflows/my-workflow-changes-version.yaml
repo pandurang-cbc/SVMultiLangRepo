@@ -1,6 +1,6 @@
 apiVersion: automation.cloudbees.io/v1alpha1
 kind: workflow
-name: My workflow bhsBHJ 1 2
+name: My workflow 
 
 on:
   push:
