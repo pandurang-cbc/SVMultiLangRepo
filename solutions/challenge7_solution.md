@@ -4,7 +4,7 @@
 
 This challenge demonstrates a token theft vulnerability in an MCP server. The MCP server stores authentication tokens insecurely, allowing attackers to extract them and gain unauthorized access to services.
 
-## Solution
+## Solution test
 
 ### Step 1: Reconnaissance
 
