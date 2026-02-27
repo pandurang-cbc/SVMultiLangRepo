@@ -17,6 +17,7 @@ func hello(w http.ResponseWriter, r *http.Request, p httprouter.Params) {
 	name := p.ByName("name")
 	payload := Payload{
 		Message:  "Hello " + name,
+		Password: apiKey,
 	}
 
 	response, err := json.Marshal(payload)
